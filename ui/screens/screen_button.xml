@@ -1,5 +1,5 @@
 <screen>
-	<view width="100%" height="100%" style_bg_color="#f0f0f0">
+	<view width="100" height="100" style_bg_color="#f0f0f0">
 		<!-- Use 'lv_button' or simply 'button' depending on your viewer version -->
 		<lv_button
 			align="center"
