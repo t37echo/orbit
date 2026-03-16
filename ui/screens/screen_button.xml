@@ -1,11 +1,16 @@
-  <screen id="main_scr" bg_color="#f0f0f0">
-    
-    <btn id="my_btn" align="center" width="150" height="50">
-      <style_main bg_color="#2196F3" radius="10" shadow_width="10" />
-      
-      <label text="Click Me!" align="center">
-        <style_main text_color="#ffffff" text_font="montserrat_14" />
-      </label>
-    </btn>
-
-  </screen>
+<screen>
+	<view width="100%" height="100%" style_bg_color="#f0f0f0">
+		<!-- Use 'lv_button' or simply 'button' depending on your viewer version -->
+		<lv_button
+			align="center"
+			width="150"
+			height="50"
+			style_bg_color="#2196F3"
+			style_radius="10"
+			style_shadow_width="10"
+		>
+			<!-- Labels inside buttons should inherit centering or be centered explicitly -->
+			<lv_label text="Click Me!" align="center" style_text_color="#ffffff" style_text_font="montserrat_14" />
+		</lv_button>
+	</view>
+</screen>
