@@ -1,5 +1,3 @@
-<!-- A simple screen with a centered, styled button -->
-<lvgl>
   <screen id="main_scr" bg_color="#f0f0f0">
     
     <btn id="my_btn" align="center" width="150" height="50">
@@ -11,4 +9,3 @@
     </btn>
 
   </screen>
-</lvgl>
