@@ -1,0 +1,14 @@
+<!-- A simple screen with a centered, styled button -->
+<lvgl>
+  <screen id="main_scr" bg_color="#f0f0f0">
+    
+    <btn id="my_btn" align="center" width="150" height="50">
+      <style_main bg_color="#2196F3" radius="10" shadow_width="10" />
+      
+      <label text="Click Me!" align="center">
+        <style_main text_color="#ffffff" text_font="montserrat_14" />
+      </label>
+    </btn>
+
+  </screen>
+</lvgl>
